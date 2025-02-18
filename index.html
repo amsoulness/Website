@@ -29,17 +29,90 @@
     </section>
 
     <section id="about" class="fade-in">
-        <h2>About Me</h2>
-        <p>I'm a passionate funny developer who loves clean code and beautiful UI.</p>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ff6347;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.6;
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in-out;
+            animation-delay: 1s;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .highlight {
+            color: #ff6347;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>About Me</h1>
+    <p>Hi, I'm <span class="highlight">Emmanuel Cherian</span>, a developer learning <span class="highlight">C programming</span> and web development. I enjoy building clean and functional websites with <span class="highlight">HTML</span>. Always learning and improving.</p>
+</div>
+
+</body>
+</html>
     </section>
 
-    <section id="portfolio" class="fade-in">
-        <h2>Projects</h2>
+    <section id="connections" class="fade-in">
+        <h2>Social Media</h2>
         <div class="grid">
-            <div class="card">Project 1</div>
-            <div class="card">Project 2</div>
-            <div class="card">Project 3</div>
-            <div class="card">Project 4</div>
+            <div class="card">Whatsapp</div>
+            <div class="card">Instagram</div>
+            <div class="card">Email Me</div>
+            <div class="card">Youtube</div>
         </div>
     </section>
 
@@ -54,7 +127,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Your Name | Built with ❤️</p>
+        <p>&copy; 2025 Amsoulness | Built with ❤️</p>
     </footer>
 
 </body>
