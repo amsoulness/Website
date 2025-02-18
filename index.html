@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>MyPortfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Hello, I'm <span>Your Emmanuel Cherian</span> 👋</h2>
+        <p>Funny Developer | Open Source Contributor</p>
+        <a href="#portfolio" class="btn">View My Work</a>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>I'm a passionate funny developer who loves clean code and beautiful UI.</p>
+    </section>
+
+    <section id="portfolio" class="fade-in">
+        <h2>Projects</h2>
+        <div class="grid">
+            <div class="card">Project 1</div>
+            <div class="card">Project 2</div>
+            <div class="card">Project 3</div>
+            <div class="card">Project 4</div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name | Built with ❤️</p>
+    </footer>
+
+</body>
+</html>
